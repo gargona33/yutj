@@ -1,0 +1,107 @@
+body {
+  background: #FFE5B4;
+}
+
+#wrapper {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+  background: #8B00FF;
+  box-sizing: border-box;
+}
+
+#header {
+  height: 200px;
+  background-color: #F5F5DC;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 1px 3px;
+}
+
+h1 {
+  margin: 0;
+  padding: 20px;
+  color: #464451;
+  font-size: 2em;
+}
+
+.nomer {
+  position: absolute;
+  top: 120px;
+  right: 20px;
+  font-size: 1.5em;
+  font-style: italic;
+  font-weight: bold;
+  color: #464451;
+}
+
+#sidebar {
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 1px 3px;
+  box-sizing: border-box;
+}
+
+#content {
+  margin-bottom: 5px;
+  padding: 10px;
+  background: #ffffff;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 1px 3px;
+  box-sizing: border-box;
+}
+
+.left {
+  float: left;
+  width: 50px;
+  height: 50px;
+  margin: 30px 7px 7px 7px;
+}
+
+.right {
+  float: right;
+  margin: 7px 7px 7px 0;
+}
+
+#footer {
+  height: 80px;
+  background-color: #ffffff;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 1px 3px;
+  box-sizing: border-box;
+}
+
+.clear {
+  clear: both;
+}
+
+.fon {
+  margin: 20px 0;
+}
+
+.mail {
+  margin: 20px 0 0 20px;
+}
+
+/* Медиа-запрос для мобильных устройств */
+@media (max-width: 767px) {
+  #wrapper {
+    padding: 0;
+  }
+
+  #sidebar {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  #content {
+    width: 100%;
+  }
+
+  .left, .right {
+    float: none;
+    margin: 7px auto;
+  }
+}
